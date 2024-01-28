@@ -1,0 +1,101 @@
+.SearchContainer_wrapper
+{
+   background-color: #cccccccc;
+   display: flex;
+   justify-content: space-between;
+   height: 90px;
+   align-items: center;
+   padding: 0 2rem;
+
+
+}
+
+.toggle_menu_wrapper
+{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.search_container
+{
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.search_container input
+{
+
+    padding:4px 8px;
+    width: 30rem;
+    border: none;
+    outline: none;
+}
+.search_container span
+{
+    font-size: 2.5rem;
+    color: #666666;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.shop_cartgory
+{
+    display: flex;
+    align-items: center;
+}
+
+/* body styles  */
+.product_catergory_container
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: "side_menu products products products products";
+}
+.side_menu
+{
+    grid-area: side_menu;
+}
+.Products_card_wrapper
+{
+    grid-area: products;
+    padding: 10px;
+  
+    
+}
+.card_container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.Menu
+{
+    margin-top: 1.2rem;
+}
+.Menu ul
+{
+    padding: 0;
+    margin: 0;
+}
+.Menu ul li
+{
+    padding: 10px;
+    padding-bottom: 20px;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.699);
+}
+.shop_side_bar
+{
+    display: flex;
+}
+
+

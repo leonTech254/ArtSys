@@ -1,0 +1,45 @@
+
+.art_card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  padding: 10px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.art_image_container {
+  /* flex-shrink: 0; */
+  width: 100%; 
+
+
+}
+
+.art_image {
+  width: 100%;
+  height: auto;
+  border-bottom-right-radius: 8px;
+}
+
+.art_details {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.art_name {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.art_info {
+  color: #666;
+  margin: 4px 0;
+}
